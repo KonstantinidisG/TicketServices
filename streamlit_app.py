@@ -1,3 +1,4 @@
+from asyncio import sleep
 from backend.classes import Check
 from frontend.components.allert_components import allert_components
 import streamlit as st
