@@ -1,5 +1,5 @@
-from back-end.classes import Check
-from front-end.components.allert_components import allert_components
+from backend.classes import Check
+from frontend.components.allert_components import allert_components
 import streamlit as st
 
 st.write("hello")
