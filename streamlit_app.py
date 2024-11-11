@@ -1,3 +1,4 @@
 import streamlit as st
 
-st.text("hello")
+st.title("Hello, Streamlit!")
+st.write("This is a Streamlit app running in Docker.")
