@@ -1,5 +1,5 @@
 import streamlit as st
-from backend.file_processing import load_data, save_temp_data, create_final_file
+from backend.file_processing import load_data, save_temp_data, validate_date, create_final_file
 from frontend.ui_elements import display_file_uploader, display_data, display_output_message, display_error_message
 import os
 
