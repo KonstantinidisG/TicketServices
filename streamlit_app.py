@@ -3,6 +3,7 @@ from backend.data_validation import load_data, save_temp_data
 from backend.file_processing import validate_date, create_final_file
 from frontend.components.ui_elements import display_file_uploader, display_data, display_output_message, display_error_message
 import os
+import pandas as pd
 
 temp_file = "temp_data.xlsx"
 
