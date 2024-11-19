@@ -4,7 +4,6 @@ from backend.file_processing import validate_date, create_final_file
 from frontend.components.ui_elements import display_file_uploader, display_data, display_output_message, display_error_message
 import os
 import pandas as pd
-import openpyxl
 
 temp_file = "temp_data.xlsx"
 
